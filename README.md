@@ -7,6 +7,7 @@
     - IlanCosman/tide
     - jethrokuan/z
     - oh-my-fish/plugin-gi
+    - patrickf1/colored_man_pages.fish
     - wodadehencou/fish-plugin
 
 ## Config path once
