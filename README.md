@@ -8,6 +8,7 @@
     - jethrokuan/z
     - oh-my-fish/plugin-gi
     - patrickf1/colored_man_pages.fish
+    - patrickf1/fzf.fish
     - wodadehencou/fish-plugin
 
 ## Config path once
