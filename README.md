@@ -10,6 +10,8 @@
     - patrickf1/colored_man_pages.fish
     - patrickf1/fzf.fish
     - wodadehencou/fish-plugin
+    - edc/bass
+    - mattmc3/cd-ls.fish
 
 ## Config path once
 
