@@ -3,7 +3,7 @@ function ldd
         case darwin
             command otool -L $argv
         case linux
-			command ldd
+			command ldd $argv
     end
 end
 

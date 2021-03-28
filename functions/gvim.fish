@@ -1,3 +1,8 @@
 function gvim -d "using nvim-qt to editor file"
-	nvim-qt $argv
+    switch (uname | string lower)
+        case darwin
+            vimr $argv
+        case linux
+			nvim-qt $argv
+    end
 end
