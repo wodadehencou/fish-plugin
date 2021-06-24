@@ -1,3 +1,3 @@
 function diff -d "using delta as diff tool"
-	command delta
+	command delta $argv
 end

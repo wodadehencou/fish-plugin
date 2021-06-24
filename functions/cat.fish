@@ -1,3 +1,3 @@
 function cat -d "cat"
-	command bat
+	command bat $argv
 end
