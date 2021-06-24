@@ -12,6 +12,7 @@
     - wodadehencou/fish-plugin
     - edc/bass
     - mattmc3/cd-ls.fish
+    - lewisacidic/fish-docker
 
 ## Config path once
 
