@@ -1,2 +1,2 @@
-fzf_configure_bindings --directory=\cf
+# fzf_configure_bindings --directory=\cf
 
