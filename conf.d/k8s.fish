@@ -1,0 +1,2 @@
+kubectl completion fish | source
+
