@@ -1,4 +1,4 @@
-function cmake -d "cmake"
+function cmake -w cmake -d "cmake"
 	switch $argv[1]
 		case "--build"
 			command cmake $argv
