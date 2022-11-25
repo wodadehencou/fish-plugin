@@ -1,3 +1,3 @@
 function view -d "using nvim to view file"
-	nvim -R $argv
+	lvim -R $argv
 end

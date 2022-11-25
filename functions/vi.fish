@@ -1,3 +1,3 @@
 function vi -d "using nvim to edit file"
-	nvim $argv
+	lvim $argv
 end

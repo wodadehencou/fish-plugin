@@ -1,3 +1,3 @@
 function vim -d "using nvim to editor file"
-	nvim $argv
+	lvim $argv
 end
