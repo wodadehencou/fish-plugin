@@ -24,3 +24,8 @@ abbr -ga 'ldd' 'otool -L'
 # translate
 abbr -ga 'en2zh' 'trans -s en -t zh-cn -v'
 abbr -ga 'zh2en' 'trans -s zh-cn -t en -v'
+
+# k8s
+abbr -ga 'testjd' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/test.conf -n test-jd'
+abbr -ga 'testcu' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/test.conf -n test-cu'
+abbr -ga 'testcu1' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/test.conf -n test-cu1'
