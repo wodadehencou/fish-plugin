@@ -1,4 +1,5 @@
 # git
+abbr -ga 'ga' 'git add'
 abbr -ga 'gaa' 'git add --all'
 abbr -ga 'gau' 'git add --update'
 abbr -ga 'gba' 'git branch --all'
