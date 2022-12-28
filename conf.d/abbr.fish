@@ -37,4 +37,4 @@ abbr -ga 'testcu1' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/test.conf -n te
 
 abbr -ga 'prejd' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/pre.conf -n pre-env-jd'
 
-abbr -ga 'prodjd' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/prod.conf -n prod-env-jd'
+abbr -ga 'prodjd' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/prod.conf -n prod-jd'
