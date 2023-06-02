@@ -20,13 +20,16 @@ abbr -ga 'vi' 'lvim'
 abbr -ga 'view' 'lvim -R'
 
 # program languages
-abbr -ga 'ldd' 'otool -L'
+if test (uname) = Darwin
+	abbr -ga 'ldd' 'otool -L'
+end
 
 # translate
 abbr -ga 'en2zh' 'trans -s en -t zh-cn -v'
 abbr -ga 'zh2en' 'trans -s zh-cn -t en -v'
 
 # k8s
+abbr -ga 'kdev' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/dev.conf'
 abbr -ga 'devjd' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/dev.conf -n test-jd'
 abbr -ga 'devcu' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/dev.conf -n test-cu'
 abbr -ga 'devcu1' 'kubectl --kubeconfig $HOME/Workspace/k8s/env/dev.conf -n test-cu1'
