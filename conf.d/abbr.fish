@@ -5,10 +5,10 @@ abbr -ga 'q' 'exit'
 abbr -ga 'work' 'cd $HOME/Workspace'
 
 # editor
-abbr -ga 'gvim' 'vimr'
-abbr -ga 'vim' 'lvim'
-abbr -ga 'vi' 'lvim'
-abbr -ga 'view' 'lvim -R'
+abbr -ga 'gvim' 'goneovim'
+abbr -ga 'vim' 'nvim'
+abbr -ga 'vi' 'nvim'
+abbr -ga 'view' 'nvim -R'
 
 # program languages
 if test (uname) = Darwin
